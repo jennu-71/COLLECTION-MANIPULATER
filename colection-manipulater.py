@@ -102,7 +102,7 @@ while True:
             if user_data == data["Student_Info"][0]:
                 del all_students[all_students.index(data)]
                 print("\nData Deleted Successfully!\n")
-            break
+                break
         else:
             print("\nStudent not found!\n")
 
