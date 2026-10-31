@@ -21,11 +21,7 @@ while True:
         student_age = int(input("Age: "))
         student_grade = input("Grade: ")
         student_dob = input("Date of Birth (YYYY-MM-DD): ")
-
-        subjects = set(
-            subject.strip()
-            for subject in input("Subjects (comma-separated): ").split(",")
-        )
+        subjects = set(input("Subjects (comma-separated): ").split(","))
 
         student = {
             "Student_Info": (student_id, student_dob),
